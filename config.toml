@@ -1,6 +1,6 @@
-baseURL = "https://your-org.github.io/klake-portal/"
+baseURL = "https://scharati.github.io/klake-portal/"
 languageCode = "en-us"
-title = "Klake Lake Portal"
+title = "Kembattahalli Lake Portal"
 
 [menu]
   [[menu.main]]
