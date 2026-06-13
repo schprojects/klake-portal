@@ -1,0 +1,34 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; max-width: 960px; margin: 0 auto; padding: 1rem; }
+header { border-bottom: 2px solid #2d7a3a; margin-bottom: 2rem; padding-bottom: 1rem; }
+nav { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+nav .logo { font-size: 1.3rem; font-weight: bold; color: #2d7a3a; text-decoration: none; }
+nav ul { list-style: none; display: flex; gap: 1rem; }
+nav a { color: #2d7a3a; text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+main { min-height: 60vh; }
+h1 { font-size: 2rem; margin-bottom: 1rem; color: #1a472a; }
+h2 { font-size: 1.5rem; margin: 1.5rem 0 0.5rem; color: #2d7a3a; }
+h3 { font-size: 1.2rem; margin: 1rem 0 0.5rem; }
+p, li { margin-bottom: 0.5rem; }
+a { color: #1a6b3a; }
+img { max-width: 100%; height: auto; }
+table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+th, td { border: 1px solid #ddd; padding: 0.5rem; text-align: left; }
+th { background: #e8f5e9; }
+.hero { text-align: center; padding: 3rem 1rem; background: #e8f5e9; border-radius: 8px; margin-bottom: 2rem; }
+.hero h1 { margin-bottom: 0.5rem; }
+.hero-buttons { margin-top: 1.5rem; }
+.button { display: inline-block; padding: 0.6rem 1.2rem; background: #2d7a3a; color: white; text-decoration: none; border-radius: 4px; margin: 0.25rem; }
+.button:hover { background: #1a472a; }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1rem 0; }
+.card { border: 1px solid #ddd; padding: 1rem; border-radius: 6px; }
+.page-list { list-style: none; }
+.page-list li { padding: 0.5rem 0; border-bottom: 1px solid #eee; }
+.gallery-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
+.gallery-grid img { border-radius: 4px; width: 100%; height: 200px; object-fit: cover; }
+.gallery-grid figure { margin: 0; }
+.gallery-grid figcaption { font-size: 0.9rem; text-align: center; margin-top: 0.25rem; color: #666; }
+time { color: #666; font-size: 0.9rem; }
+footer { border-top: 1px solid #ddd; margin-top: 3rem; padding-top: 1rem; text-align: center; color: #888; font-size: 0.9rem; }
+@media (max-width: 600px) { nav { flex-direction: column; gap: 0.5rem; } }

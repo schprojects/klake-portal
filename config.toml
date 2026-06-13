@@ -1,0 +1,44 @@
+baseURL = "https://your-org.github.io/klake-portal/"
+languageCode = "en-us"
+title = "Klake Lake Portal"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    identifier = "legal"
+    name = "Legal"
+    url = "/legal/"
+    weight = 3
+  [[menu.main]]
+    identifier = "contacts"
+    name = "Contacts"
+    url = "/contacts/"
+    weight = 4
+  [[menu.main]]
+    identifier = "media"
+    name = "Media"
+    url = "/media/"
+    weight = 5
+  [[menu.main]]
+    identifier = "news"
+    name = "News"
+    url = "/news/"
+    weight = 6
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
