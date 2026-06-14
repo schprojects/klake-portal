@@ -2,4 +2,4 @@
 title: "Media"
 ---
 
-Photos, videos, and news coverage of Klake Lake and its rejuvenation activities.
+Explore our story, media coverage, events, and photo gallery.

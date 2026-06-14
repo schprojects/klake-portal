@@ -6,9 +6,7 @@ Built with **Hugo** + **GitHub Pages** + **Google Drive**.
 
 ## Quick Links
 
-- **Live site:** https://your-org.github.io/klake-portal/
-- **Report:** [REPORT.md](./REPORT.md) — complete implementation guide
-- **Maintenance:** [MAINTENANCE.md](./MAINTENANCE.md) — quick reference for non-tech users
+- **Live site:** https://schprojects.github.io/klake-portal/
 
 ## Project Structure
 

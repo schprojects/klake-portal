@@ -1,18 +1,18 @@
 {{ define "main" }}
-<section>
-    <h1>{{ .Title }}</h1>
-    <div class="content">
-        {{ .Content }}
-    </div>
-    <ul class="page-list">
-        {{ range .Pages }}
-        <li>
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            {{ if .Date }}
-            <time>{{ .Date.Format "January 2, 2006" }}</time>
-            {{ end }}
-        </li>
-        {{ end }}
-    </ul>
-</section>
+<div class="page-content">
+  <h1>{{ .Title }}</h1>
+  {{ if .Date }}<time>{{ .Date.Format "January 2, 2006" }}</time>{{ end }}
+  <div class="content">{{ .Content }}</div>
+  {{ if .Pages }}
+  <ul class="page-list">
+    {{ range .Pages }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ if .Date }}<time>{{ .Date.Format "January 2, 2006" }}</time>{{ end }}
+      {{ if .Summary }}<p>{{ .Summary | truncate 200 }}</p>{{ end }}
+    </li>
+    {{ end }}
+  </ul>
+  {{ end }}
+</div>
 {{ end }}

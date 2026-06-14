@@ -14,14 +14,14 @@ title = "Kembattahalli Lake Portal"
     url = "/about/"
     weight = 2
   [[menu.main]]
-    identifier = "legal"
-    name = "Legal"
-    url = "/legal/"
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
     weight = 3
   [[menu.main]]
-    identifier = "contacts"
-    name = "Contacts"
-    url = "/contacts/"
+    identifier = "resources"
+    name = "Resources"
+    url = "/resources/"
     weight = 4
   [[menu.main]]
     identifier = "media"
@@ -29,9 +29,9 @@ title = "Kembattahalli Lake Portal"
     url = "/media/"
     weight = 5
   [[menu.main]]
-    identifier = "news"
-    name = "News"
-    url = "/news/"
+    identifier = "get-involved"
+    name = "Get Involved"
+    url = "/get-involved/"
     weight = 6
 
 [taxonomies]

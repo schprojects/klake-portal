@@ -1,0 +1,5 @@
+_internal_DO_NOT_COMMIT/
+.hugo_build.lock
+public/
+scripts/
+bin/

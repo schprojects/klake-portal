@@ -1,32 +1,158 @@
 {{ define "main" }}
+
 <section class="hero">
-    <h1>Welcome to Klake Lake</h1>
-    <p>A community-driven initiative for lake rejuvenation and maintenance.</p>
+  <div class="hero-content">
+    <span class="tagline">Community-Led Lake Rejuvenation</span>
+    <h1>Save the Kembattahalli Lake<br><span class="highlight">One Drop at a Time</span></h1>
+    <p>We are a community-driven initiative dedicated to restoring and preserving Kembattahalli Lake for future generations.</p>
     <div class="hero-buttons">
-        <a href="/about/" class="button">Learn More</a>
-        <a href="/contacts/volunteers/" class="button">Get Involved</a>
+      <a href="{{ "get-involved/" | relURL }}" class="btn btn-primary">Get Involved</a>
+      <a href="{{ "about/" | relURL }}" class="btn btn-secondary">Learn More</a>
     </div>
+  </div>
 </section>
 
-<section class="quick-links">
-    <h2>Quick Links</h2>
-    <div class="card-grid">
-        <div class="card">
-            <h3><a href="/legal/">Legal Records</a></h3>
-            <p>Lake documentation, rights, and legal developments.</p>
-        </div>
-        <div class="card">
-            <h3><a href="/contacts/">Contacts</a></h3>
-            <p>Find officials, staff, and volunteer contacts.</p>
-        </div>
-        <div class="card">
-            <h3><a href="/media/gallery/">Photo Gallery</a></h3>
-            <p>See the beauty of Klake Lake.</p>
-        </div>
-        <div class="card">
-            <h3><a href="/news/">News & Events</a></h3>
-            <p>Latest updates and upcoming events.</p>
-        </div>
+<section class="stats-section">
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-number">currently ~6 acres <span class="plus"></span></div>
+      <div class="stat-sub">Acres</div>
+      <div class="stat-label">Lake Area</div>
     </div>
+  <!--  <div class="stat-card">
+      <div class="stat-number">1000+</div>
+      <div class="stat-sub">Trees</div>
+      <div class="stat-label">Planted &amp; Counting</div>
+    </div> -->
+    <div class="stat-card">
+      <div class="stat-number">25+</div>
+      <div class="stat-sub">Volunteers</div>
+      <div class="stat-label">Engaged</div>
+    </div>
+    <!-- <div class="stat-card">
+      <div class="stat-number">10+</div>
+      <div class="stat-sub">Partnerships</div>
+      <div class="stat-label">with NGOs &amp; Corporates</div>
+    </div> -->
+    <div class="stat-card">
+      <div class="stat-number">6+</div>
+      <div class="stat-sub">Years</div>
+      <div class="stat-label">and counting</div>
+    </div>
+  </div>
 </section>
+
+<section class="section section-alt">
+  <div class="section-inner">
+    <h2>Why Save the Lake?</h2>
+    <p class="subtitle">Lakes play a crucial role in the water cycle, supporting biodiversity and regulating local climate. Our mission is to restore and protect Kembattahalli Lake.</p>
+    <div class="mission-content">
+      <div class="mission-text">
+        <p>Kembattahalli Lake is more than just a water body — it is the heart of our local ecosystem. Over the years, encroachment and neglect have threatened its existence. 
+          We are working tirelessly to rejuvenate the lake, restore its catchment area, and create a green belt around it.</p>
+        <p>Through community engagement, partnerships, and scientific restoration methods, we aim to bring the lake back to life — one step at a time.</p>
+        <a href="{{ "about/" | relURL }}" class="btn btn-primary" style="background:var(--green-500);color:var(--white);">Our Story</a>
+      </div>
+      <div class="mission-image">
+        <img src="{{ "images/lake-aerial-view.jpg" | relURL }}" alt="Kembattahalli Lake" style="width:100%;border-radius:12px;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner">
+    <h2>Our Initiatives</h2>
+    <p class="subtitle">From lake restoration to tree plantation drives — here's how we're making a difference.</p>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon">🌊</div>
+        <h3><a href="{{ "projects/" | relURL }}">Lake Restoration</a></h3>
+        <p> Co-ordinating with government for weed removal, feeder channel cleaning, lake garbage cleanup drives and biodiversity enhancement to restore the lake's natural ecosystem.</p>
+        <a href="{{ "projects/" | relURL }}" class="btn-link">Learn More →</a>
+      </div>
+      <div class="card">
+        <div class="card-icon">🌳</div>
+        <h3><a href="{{ "projects/" | relURL }}">Tree Plantation</a></h3>
+        <p>Creating a green buffer zone around the lake with native tree species to improve groundwater recharge.</p>
+        <a href="{{ "projects/" | relURL }}" class="btn-link">Learn More →</a>
+      </div>
+      <div class="card">
+        <div class="card-icon">📚</div>
+        <h3><a href="{{ "resources/" | relURL }}">Education &amp; Resources</a></h3>
+        <p>Access guides, legal documents, and educational material about lake conservation and water bodies.</p>
+        <a href="{{ "resources/" | relURL }}" class="btn-link">Explore Resources →</a>
+      </div>
+      <div class="card">
+        <div class="card-icon">🤝</div>
+        <h3><a href="{{ "get-involved/" | relURL }}">Get Involved</a></h3>
+        <p>Volunteer your time, partner with us, or contribute to the cause. Every effort counts.</p>
+        <a href="{{ "get-involved/" | relURL }}" class="btn-link">Join Us →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section events-highlight">
+  <div class="section-inner">
+    <div class="events-ribbon">📅 Upcoming Events</div>
+    <h2>Join an Event Near You</h2>
+    <p class="subtitle">Be part of the change — participate in clean-up drives, tree plantation sessions, and community meetings.</p>
+    <div class="events-grid">
+      <div class="event-card featured">
+        <div class="event-date-badge">
+          <span class="event-day">TBD</span>
+          <span class="event-month">Soon</span>
+        </div>
+        <div class="event-details">
+          <h3>Lake Clean-Up Drive</h3>
+          <p class="event-meta">📍 Kembattahalli Lake · ⏰ Weekend</p>
+          <p>Join us for a weekend clean-up drive. Gloves and bags provided. All are welcome!</p>
+          <a href="{{ "media/events/" | relURL }}" class="btn btn-accent">Register Interest →</a>
+        </div>
+      </div>
+      <div class="event-card">
+        <div class="event-date-badge">
+          <span class="event-day">TBD</span>
+          <span class="event-month">Soon</span>
+        </div>
+        <div class="event-details">
+          <h3>Tree Plantation Session</h3>
+          <p class="event-meta">📍 Lake Perimeter · ⏰ Morning</p>
+          <p>Help us plant native trees around the lake to create a green buffer zone.</p>
+        </div>
+      </div>
+      <div class="event-card">
+        <div class="event-date-badge">
+          <span class="event-day">TBD</span>
+          <span class="event-month">Soon</span>
+        </div>
+        <div class="event-details">
+          <h3>Community Meeting</h3>
+          <p class="event-meta">📍 Community Hall · ⏰ Evening</p>
+          <p>Monthly meeting to discuss progress, plan upcoming activities, and share ideas.</p>
+        </div>
+      </div>
+    </div>
+    <div class="events-cta">
+      <a href="{{ "media/events/" | relURL }}" class="btn btn-primary" style="background:var(--white);color:var(--green-900);">View All Events &amp; Past Events</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="section-inner">
+    <h2>Our Partners</h2>
+    <p class="subtitle">We work with NGOs, corporates, and government bodies to maximize our impact.</p>
+    <div class="partners-grid">
+      <div class="partner-item"><span class="partner-placeholder"><strong>Partner</strong> Logo</span></div>
+      <div class="partner-item"><span class="partner-placeholder"><strong>Partner</strong> Logo</span></div>
+      <div class="partner-item"><span class="partner-placeholder"><strong>Partner</strong> Logo</span></div>
+      <div class="partner-item"><span class="partner-placeholder"><strong>Partner</strong> Logo</span></div>
+      <div class="partner-item"><span class="partner-placeholder"><strong>Partner</strong> Logo</span></div>
+    </div>
+  </div>
+</section>
+
+
 {{ end }}
