@@ -11,7 +11,7 @@ Important legal documents related to Kembattahalli Lake.
 - [BDA workshop - Bring back the lakes, 2016 presentation](https://drive.google.com/file/d/1vKkBC_w1SmkAVRe9cmRbEdj1WoGG-jvh/view?usp=drive_link) — BDA workshop - Bring back the lakes, 2016 presentation.
 - [LDA,GOK - List of Lakes of Bengaluru and their custodians](https://drive.google.com/file/d/1vKkBC_w1SmkAVRe9cmRbEdj1WoGG-jvh/view?usp=drive_link) — LDA,GOK - List of Lakes of Bengaluru and their custodians.
 - [LDA,GOK - List of Lakes of Bengaluru](https://docs.google.com/spreadsheets/d/1yCtdEeuUx8VkHnT0lnuXspTAj-b--43o/edit?usp=sharing&ouid=112576830109932347143&rtpof=true&sd=true) — List of Lakes of Bengaluru.
-- [DISHAANK snapshot of Kembattahalli lake survey numbers] (https://drive.google.com/file/d/1vtwa8eJOgWbuDpt2KDoDRtTfWyT3yFOJ/view?usp=sharing) - DISHAANK snapshot of Kembattahalli lake survey numbers
+- [DISHAANK snapshot of Kembattahalli lake survey numbers](https://drive.google.com/file/d/1vtwa8eJOgWbuDpt2KDoDRtTfWyT3yFOJ/view?usp=sharing) - DISHAANK snapshot of Kembattahalli lake survey numbers
 - [Survey sketch survey number 3 Kembattahalli village](https://drive.google.com/file/d/1ynFYxVAi3yIEaGoZK7AzTx6vIoE7DtcS/view?usp=sharing) - Survey sketch survey number 3 Kembattahalli village
 - [Survey sketch survey number 32/3 Kothnur village](https://drive.google.com/file/d/1pVXkSqxii-zBPGzDWKRg8UtWSLbiLZOv/view?usp=sharing) - Survey sketch survey number 32/3 Kothnur village
 
